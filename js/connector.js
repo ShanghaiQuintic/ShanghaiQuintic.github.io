@@ -1,6 +1,7 @@
 var WHITE_ICON = './images/icon-white.svg';
 var GRAY_ICON = './images/icon-gray.svg';
 
+alert('line 4')
 window.TrelloPowerUp.initialize({
   'board-buttons': function(t, options){
     return [{
