@@ -7,14 +7,14 @@ window.TrelloPowerUp.initialize({
     return [{
       icon: WHITE_ICON,
       text: 'Template',
-      callback: function (t, opts) { ... }
+      callback: function (t, opts) { console.log('init') }
     }];
   },
   'card-buttons': function(t, options) {
     return [{
       icon: GRAY_ICON,
       text: 'Template',
-      callback: function (t, opts) { ... }
+      callback: function (t, opts) { console.log('card-buttons') }
     }];
   }
 });
